@@ -1,0 +1,29 @@
+{
+  "name": "segment-tree",
+  "version": "1.0.0",
+  "description": "Segment tree visualization",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "url": "git@github.com:zhongyn/segment-tree.git",
+    "type": "git"
+  },
+  "author": "Yaonan Zhong <zhongyaonan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
+    "webpack": "2.1.0-beta.25",
+    "webpack-dev-server": "2.1.0-beta.10"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
