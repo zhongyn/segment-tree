@@ -1,6 +1,11 @@
-.test {
-  color: blue;
+.node {
+  fill: none;
+  stroke: #4caf50;
+  stroke-width: 5px;
 }
-.foo {
-  color: white;
+.text {
+  fill: black;
+}
+.body {
+  text-align: center;
 }
